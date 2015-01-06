@@ -1,0 +1,8 @@
+{
+  "name": "test",
+  "description": "test",
+  "version": "0.1.0",
+  "dependencies": {
+    "atomus": "0.1.12"
+  }
+}

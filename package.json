@@ -1,0 +1,26 @@
+{
+  "name": "syncher",
+  "description": "Synching a Node.js module",
+  "version": "0.1.0",
+  "homepage": "https://github.com/krasimir/syncher",
+  "repository": "git@github.com:krasimir/syncher.git",
+  "author": "Krasimir Tsonev <info@krasimirtsonev.com> (http://krasimirtsonev.com)",
+  "main": "./index.js",
+  "keywords": [
+    "synch",
+    "module",
+    "update",
+    "autoinstall",
+    "install"
+  ],
+  "dependencies": {
+    "lodash": "2.4.1",
+    "npm": "2.1.17",
+    "semver": "4.2.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
