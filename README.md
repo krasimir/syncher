@@ -29,7 +29,8 @@ The module accepts its configuration as an object in the following format:
 ```js
 {
   modules: [
-    { name: '[a name of module registered to the registry]' }
+    { name: '[a name of module registered to the registry]' },
+    { name: '[a name of module registered to the registry]', once: true },
     { name: '[a name of module]', url: '[url to a private repository]' }
   ],
   root: '[string]', // Optional. By default `process.cwd() + '/node_modules'`
@@ -38,3 +39,14 @@ The module accepts its configuration as an object in the following format:
   checkingInterval: [Number], // Optional. By default `1000 * 4`
 }
 ```
+
+If the `once` flag is set to `true` Syncher will perform a check only once and it will everyntually install the module. There is no timer started in this case.
+
+## Testing
+
+```
+cd ./test
+npm install
+node ./test.js
+```
+
